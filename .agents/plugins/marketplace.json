@@ -3,34 +3,6 @@
   "interface": {
     "displayName": "Rafa Plugins"
   },
-  "plugins": [
-    {
-      "name": "buildprint-cli",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rafachavantes/using-buildprint-cli",
-        "path": ".",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    },
-    {
-      "name": "honcho-codex",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rafachavantes/honcho-codex",
-        "path": ".",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    }
-  ]
+  "_note": "Codex does not support git-subdir marketplace entries; install Codex plugins per-repo instead (e.g. `codex plugin marketplace add rafachavantes/honcho-codex`). This catalog is Claude-only.",
+  "plugins": []
 }
