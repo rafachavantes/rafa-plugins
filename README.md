@@ -13,7 +13,7 @@ plugins where they live:
 | Plugin | Claude Code | Codex |
 |--------|-------------|-------|
 | `buildprint-cli` | ✅ `rafachavantes/using-buildprint-cli` | ✅ (same repo, `.codex-plugin`) |
-| `honcho` | ✅ `rafachavantes/claude-honcho` (`plugins/honcho`) | ⏳ honcho-codex (pending) |
+| `honcho` | ✅ `rafachavantes/claude-honcho` (`plugins/honcho`) | ✅ `rafachavantes/honcho-codex` |
 
 ## Add the marketplace
 
