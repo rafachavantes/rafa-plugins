@@ -1,0 +1,22 @@
+{
+  "name": "rafa-plugins",
+  "interface": {
+    "displayName": "Rafa Plugins"
+  },
+  "plugins": [
+    {
+      "name": "buildprint-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rafachavantes/using-buildprint-cli",
+        "path": ".",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
