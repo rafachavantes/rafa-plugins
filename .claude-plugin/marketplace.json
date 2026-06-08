@@ -1,0 +1,29 @@
+{
+  "name": "rafa-plugins",
+  "owner": {
+    "name": "Rafael Chavantes",
+    "email": "contato@moara.digital"
+  },
+  "metadata": {
+    "description": "Rafa's personal plugin catalog for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "buildprint-cli",
+      "source": {
+        "source": "github",
+        "repo": "rafachavantes/using-buildprint-cli"
+      },
+      "description": "Work with Bubble.io apps via the Buildprint CLI: workflow enforcement, guideline navigation, command reference"
+    },
+    {
+      "name": "honcho",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rafachavantes/claude-honcho",
+        "path": "plugins/honcho"
+      },
+      "description": "Persistent Honcho memory for Claude Code (fork: scoped context + detached writes, config-gated)"
+    }
+  ]
+}
