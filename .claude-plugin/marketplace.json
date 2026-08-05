@@ -24,7 +24,7 @@
         "url": "https://github.com/rafachavantes/claude-honcho",
         "path": "plugins/honcho"
       },
-      "description": "Persistent Honcho memory for Claude Code (fork: scoped context + detached writes, config-gated)"
+      "description": "Persistent Honcho memory for Claude Code (fork of plastic-labs/claude-honcho: one session per repo across subdirectories, slim post-compaction injection, both config-gated)"
     }
   ]
 }
