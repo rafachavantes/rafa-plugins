@@ -20,9 +20,9 @@
     {
       "name": "honcho",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rafachavantes/claude-honcho",
-        "path": "plugins/honcho"
+        "source": "github",
+        "repo": "rafachavantes/claude-honcho",
+        "ref": "release/honcho"
       },
       "description": "Persistent Honcho memory for Claude Code (fork of plastic-labs/claude-honcho: one session per repo across subdirectories, slim post-compaction injection, both config-gated)"
     }
